@@ -1,3 +1,11 @@
+const navItems = [
+  { href: "#leistungen", label: "Leistungen" },
+  { href: "#vorteile", label: "Vorteile" },
+  { href: "#ablauf", label: "Ablauf" },
+  { href: "#bewertungen", label: "Bewertungen" },
+  { href: "#kontakt", label: "Kontakt" },
+];
+
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-black/5 bg-white/90 backdrop-blur-md">
@@ -5,12 +13,15 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#12372A] text-white shadow-sm">
             🦘
-            {/* <img
-              src="/kaenguru-logo.jpeg"
-              alt="Känguru Logo"
-              className="h-6 w-6"
-            /> */}
+            {/*
+              <img
+                src="/kaenguru-logo.jpeg"
+                alt="Känguru Logo"
+                className="h-6 w-6"
+              />
+            */}
           </div>
+
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#12372A]/70">
               Big Känguru
@@ -20,21 +31,15 @@ export default function Header() {
         </div>
 
         <nav className="hidden items-center gap-8 text-sm font-medium lg:flex">
-          <a href="#leistungen" className="transition hover:text-[#12372A]">
-            Leistungen
-          </a>
-          <a href="#vorteile" className="transition hover:text-[#12372A]">
-            Vorteile
-          </a>
-          <a href="#ablauf" className="transition hover:text-[#12372A]">
-            Ablauf
-          </a>
-          <a href="#bewertungen" className="transition hover:text-[#12372A]">
-            Bewertungen
-          </a>
-          <a href="#kontakt" className="transition hover:text-[#12372A]">
-            Kontakt
-          </a>
+          {navItems.map((item) => (
+            <a
+              key={item.href}
+              href={item.href}
+              className="transition hover:text-[#12372A]"
+            >
+              {item.label}
+            </a>
+          ))}
         </nav>
 
         <a
