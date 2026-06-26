@@ -13,7 +13,7 @@ export default function Hero() {
             Umziehen <span className="text-[#182937]">ohne Stress</span>.
           </h1>
 
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-black/70 lg:text-xl">
+          <p className="mt-6 max-w-xl text-md leading-6 text-black/70">
             Professionelle Umzüge für Privatkunden und Unternehmen. Klar
             geplant, sicher durchgeführt und auf Wunsch komplett inklusive
             Verpackung, Transport und Entrümpelung.
@@ -27,7 +27,7 @@ export default function Hero() {
               Kostenloses Angebot anfordern
             </a>
             <a
-              href="tel:+49000000000"
+              href="tel:+491517183711"
               className="rounded-full border border-black/10 bg-white px-6 py-4 text-center text-sm font-semibold text-[#1B1B1B] shadow-sm transition hover:-translate-y-0.5"
             >
               Jetzt anrufen
