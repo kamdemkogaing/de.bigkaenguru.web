@@ -14,7 +14,7 @@ export default function Header() {
           <img
             src="/kaenguru-logo.png"
             alt="Känguru Logo"
-            className="h-[7rem] w-auto object-contain"
+            className="h-[5rem] w-auto object-contain"
           />
         </div>
 
