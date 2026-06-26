@@ -4,9 +4,11 @@ export default function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-12 lg:grid-cols-5 lg:px-10">
         {/* Über uns */}
         <div>
-          <p className="text-lg font-semibold">
-            <span className="text-[#F4A825]">🦘</span> Big Känguru
-          </p>
+          <img
+            src="/kaenguru-logo.jpeg"
+            alt="Big Känguru Logo"
+            className="h-[4.5rem] w-auto object-contain"
+          />
           <p className="mt-3 max-w-sm text-sm leading-7 text-white/65">
             Professionelle Umzugslösungen für Privatkunden und Unternehmen in
             Nürnberg und der Region.

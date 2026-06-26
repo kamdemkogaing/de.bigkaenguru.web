@@ -106,11 +106,11 @@ export default function Hero() {
               <div className="grid grid-cols-2 gap-4 pt-2">
                 <div className="rounded-3xl bg-[#F7F4EE] p-5">
                   <p className="text-sm text-black/50">Reaktionszeit</p>
-                  <p className="mt-2 text-2xl font-semibold">Kurz & direkt</p>
+                  <p className="mt-2 text-xl font-semibold">Kurz & direkt</p>
                 </div>
                 <div className="rounded-3xl bg-[#F7F4EE] p-5">
                   <p className="text-sm text-black/50">Einsatzgebiet</p>
-                  <p className="mt-2 text-2xl font-semibold">
+                  <p className="mt-2 text-xl font-semibold">
                     Nürnberg & Umgebung
                   </p>
                 </div>
