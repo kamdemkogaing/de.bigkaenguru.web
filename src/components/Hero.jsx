@@ -1,16 +1,16 @@
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-[#F7F4EE]">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(18,55,42,0.10),transparent_30%),radial-gradient(circle_at_bottom_right,rgba(244,168,37,0.16),transparent_28%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(24,41,55,0.10),transparent_30%),radial-gradient(circle_at_bottom_right,rgba(244,168,37,0.16),transparent_28%)]" />
 
       <div className="relative mx-auto grid max-w-7xl gap-10 px-6 py-16 lg:grid-cols-[1.1fr_0.9fr] lg:px-10 lg:py-24">
         <div className="flex flex-col justify-center">
-          <span className="mb-5 inline-flex w-fit items-center rounded-full border border-[#12372A]/10 bg-white/80 px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[#12372A] shadow-sm">
+          <span className="mb-5 inline-flex w-fit items-center rounded-full border border-[#182937]/10 bg-white/80 px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[#182937] shadow-sm">
             Schnell · Zuverlässig · Nürnberg
           </span>
 
           <h1 className="max-w-2xl text-5xl font-semibold leading-tight tracking-tight lg:text-7xl">
-            Umziehen <span className="text-[#12372A]">ohne Stress</span>.
+            Umziehen <span className="text-[#182937]">ohne Stress</span>.
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-black/70 lg:text-xl">
@@ -22,7 +22,7 @@ export default function Hero() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href="#kontakt"
-              className="rounded-full bg-[#12372A] px-6 py-4 text-center text-sm font-semibold text-white shadow-lg shadow-[#12372A]/15 transition hover:-translate-y-0.5"
+              className="rounded-full bg-[#182937] px-6 py-4 text-center text-sm font-semibold text-white shadow-lg shadow-[#182937]/15 transition hover:-translate-y-0.5"
             >
               Kostenloses Angebot anfordern
             </a>
@@ -53,10 +53,10 @@ export default function Hero() {
 
         <div className="relative">
           <div className="absolute -right-6 top-10 hidden h-32 w-32 rounded-full bg-[#F4A825]/25 blur-3xl lg:block" />
-          <div className="absolute -left-4 bottom-8 hidden h-28 w-28 rounded-full bg-[#12372A]/20 blur-3xl lg:block" />
+          <div className="absolute -left-4 bottom-8 hidden h-28 w-28 rounded-full bg-[#182937]/20 blur-3xl lg:block" />
 
           <div className="relative overflow-hidden rounded-[2rem] border border-white/70 bg-white shadow-[0_30px_100px_rgba(0,0,0,0.10)]">
-            <div className="border-b border-black/5 bg-[#12372A] px-8 py-6 text-white">
+            <div className="border-b border-black/5 bg-[#182937] px-8 py-6 text-white">
               <p className="text-sm uppercase tracking-[0.18em] text-white/65">
                 Schnellanfrage
               </p>
@@ -95,7 +95,7 @@ export default function Hero() {
                 placeholder="Art des Umzugs"
               />
               <textarea
-                className="min-h-[120px] rounded-2xl border border-black/8 bg-[#F8F8F8] px-4 py-4 outline-none"
+                className="min-h-[120px] resize-none rounded-2xl border border-black/8 bg-[#F8F8F8] px-4 py-4 outline-none"
                 placeholder="Beschreibe kurz dein Anliegen"
               />
 

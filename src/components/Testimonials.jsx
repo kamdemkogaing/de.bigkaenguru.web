@@ -18,7 +18,7 @@ export default function Testimonials() {
     <section id="bewertungen" className="bg-[#F7F4EE]">
       <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10">
         <div className="max-w-3xl">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#12372A]">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#182937]">
             Kundenstimmen
           </p>
           <h2 className="mt-4 text-4xl font-semibold tracking-tight lg:text-5xl">

@@ -1,7 +1,7 @@
 export default function ContactSection() {
   return (
     <section id="kontakt" className="mx-auto max-w-7xl px-6 py-20 lg:px-10">
-      <div className="grid gap-8 rounded-[2.5rem] bg-[#12372A] p-8 text-white shadow-[0_30px_90px_rgba(18,55,42,0.22)] lg:grid-cols-[1fr_0.9fr] lg:p-10">
+      <div className="grid gap-8 rounded-[2.5rem] bg-[#182937] p-8 text-white shadow-[0_30px_90px_rgba(24,41,55,0.22)] lg:grid-cols-[1fr_0.9fr] lg:p-10">
         <div>
           <p className="text-sm uppercase tracking-[0.22em] text-white/60">
             Kontakt
@@ -30,7 +30,7 @@ export default function ContactSection() {
               placeholder="E-Mail"
             />
             <textarea
-              className="min-h-[120px] rounded-2xl border border-black/8 bg-[#F8F8F8] px-4 py-4 outline-none"
+              className="min-h-[120px] resize-none rounded-2xl border border-black/8 bg-[#F8F8F8] px-4 py-4 outline-none"
               placeholder="Deine Nachricht"
             />
             <button className="h-14 rounded-full bg-[#F4A825] text-sm font-semibold shadow-sm">

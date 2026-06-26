@@ -25,7 +25,7 @@ export default function Process() {
   return (
     <section id="ablauf" className="mx-auto max-w-7xl px-6 py-20 lg:px-10">
       <div className="max-w-3xl">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#12372A]">
+        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#182937]">
           Ablauf
         </p>
         <h2 className="mt-4 text-4xl font-semibold tracking-tight lg:text-5xl">
@@ -39,7 +39,7 @@ export default function Process() {
             key={step.number}
             className="rounded-[2rem] border border-black/5 bg-white p-7 shadow-sm"
           >
-            <span className="inline-flex rounded-full bg-[#12372A] px-4 py-2 text-sm font-semibold text-white">
+            <span className="inline-flex rounded-full bg-[#182937] px-4 py-2 text-sm font-semibold text-white">
               {step.number}
             </span>
             <h3 className="mt-6 text-xl font-semibold">{step.title}</h3>
