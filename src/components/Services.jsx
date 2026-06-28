@@ -63,12 +63,12 @@ export default function Services() {
               {service.title}
             </h3>
             <p className="mt-3 leading-8 text-black/65">{service.text}</p>
-            <div className="mt-6 text-sm font-semibold text-[#182937] group-hover:text-[#F4A825] transition flex items-center gap-2">
+            {/* <div className="mt-6 text-sm font-semibold text-[#182937] group-hover:text-[#F4A825] transition flex items-center gap-2">
               Mehr erfahren
               <span className="group-hover:translate-x-1 transition-transform">
                 →
               </span>
-            </div>
+            </div> */}
           </div>
         ))}
       </div>
