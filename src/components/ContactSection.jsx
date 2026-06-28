@@ -6,7 +6,7 @@ export default function ContactSection() {
           <p className="text-sm uppercase tracking-[0.22em] text-white/60">
             Kontakt
           </p>
-          <h2 className="mt-4 max-w-xl text-4xl font-semibold leading-tight lg:text-5xl">
+          <h2 className="mt-4 max-w-xl text-3xl font-semibold leading-tight">
             Jetzt unverbindlich anfragen und Umzug entspannt planen.
           </h2>
           <p className="mt-5 max-w-xl leading-8 text-white/75">

@@ -13,7 +13,7 @@ export default function Advantages() {
           <p className="text-sm uppercase tracking-[0.22em] text-white/60">
             Warum wir
           </p>
-          <h2 className="mt-5 text-4xl font-semibold leading-tight">
+          <h2 className="mt-5 text-3xl font-semibold leading-tight">
             Vertrauen entsteht durch Klarheit, Service und Verlässlichkeit.
           </h2>
           <p className="mt-5 max-w-lg leading-8 text-white/75">
