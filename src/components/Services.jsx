@@ -1,18 +1,33 @@
 const services = [
   {
-    title: "Privatumzug",
+    title: "Privatumzüge",
     text: "Ob Wohnung, Haus oder Seniorenumzug – wir begleiten deinen Umzug sicher, strukturiert und stressfrei.",
-    icon: "📦",
+    icon: "🏠",
   },
   {
-    title: "Firmenumzug",
-    text: "Wir organisieren Büroumzüge und Standortwechsel effizient, damit Ausfallzeiten so gering wie möglich bleiben.",
+    title: "Gewerbliche Umzüge",
+    text: "Wir minimieren Unterbrechungen für Ihr Unternehmen durch sorgfältige Planung und effiziente Durchführung.",
     icon: "🏢",
   },
   {
-    title: "Transport & Montage",
-    text: "Von Möbeltransport bis Tragehilfe: Wir unterstützen zuverlässig bei Logistik, Aufbau und Transport.",
+    title: "Verpacken und Auspacken",
+    text: "Unsere Experten kümmern sich um das Verpacken Ihrer Sachen, um maximalen Schutz während des Transports zu gewährleisten.",
+    icon: "📦",
+  },
+  {
+    title: "Kleintransport",
+    text: "Die Lieferung von Möbeln oder größeren Gegenständen von Geschäften zu Privathaushalten – schnell und zuverlässig.",
     icon: "🚚",
+  },
+  {
+    title: "Entrümpelung",
+    text: "Das Aufräumen, Entfernen oder die Entsorgung von unnötigen oder unerwünschten Gegenständen aus Räumen und Gebäuden.",
+    icon: "♻️",
+  },
+  {
+    title: "Hilfe bei Lagerung",
+    text: "Wir bieten sichere Lageroptionen, falls Sie Ihre Sachen vorübergehend einlagern müssen.",
+    icon: "📦",
   },
 ];
 
@@ -33,19 +48,26 @@ export default function Services() {
         </p>
       </div>
 
-      <div className="mt-12 grid gap-6 lg:grid-cols-3">
+      <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {services.map((service) => (
           <div
             key={service.title}
-            className="rounded-[2rem] border border-black/5 bg-white p-7 shadow-[0_14px_40px_rgba(0,0,0,0.05)] transition hover:-translate-y-1 hover:shadow-[0_18px_50px_rgba(0,0,0,0.08)]"
+            className="group rounded-[2rem] border border-black/5 bg-white p-8 shadow-[0_14px_40px_rgba(0,0,0,0.05)] transition duration-300 hover:-translate-y-2 hover:shadow-[0_25px_60px_rgba(0,0,0,0.12)]"
           >
-            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#F7F4EE] text-2xl">
-              {service.icon}
+            <div className="flex items-center gap-3 mb-6">
+              <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-[#F4A825]/10 to-[#F4A825]/5 text-4xl group-hover:scale-110 transition-transform duration-300">
+                {service.icon}
+              </div>
             </div>
-            <h3 className="mt-6 text-2xl font-semibold">{service.title}</h3>
+            <h3 className="text-2xl font-bold text-[#F4A825]">
+              {service.title}
+            </h3>
             <p className="mt-3 leading-8 text-black/65">{service.text}</p>
-            <div className="mt-6 text-sm font-semibold text-[#182937]">
-              Mehr erfahren →
+            <div className="mt-6 text-sm font-semibold text-[#182937] group-hover:text-[#F4A825] transition flex items-center gap-2">
+              Mehr erfahren
+              <span className="group-hover:translate-x-1 transition-transform">
+                →
+              </span>
             </div>
           </div>
         ))}
